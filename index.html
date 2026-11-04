@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#dedddE">
+  <meta name="description" content="A mobile data story about Canada's unequal access to high-speed Internet.">
+  <title>Same Country. Different Connection.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the story</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Same Country. Different Connection home">
+      <span>Same Country.</span>
+      <span>Different Connection.</span>
+    </a>
+    <button class="menu-button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="#gap">The gap</a>
+      <a href="#homes">Who is left out</a>
+      <a href="#opportunity">Why it matters</a>
+      <a href="#action">Take action</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="eyebrow">Canada's digital divide</div>
+      <h1>Canada is connected.<br><span>But not equally.</span></h1>
+      <p class="hero-copy">Canada is approaching universal broadband access, but the national picture hides a major gap affecting rural communities, the territories and First Nations reserve areas.</p>
+
+      <div class="hero-comparison" aria-label="In 2024, high-speed Internet availability was 99.8 percent in urban areas and 65.7 percent in First Nations reserve areas">
+        <article class="data-block data-block--urban">
+          <strong>99.8<span>%</span></strong>
+          <p>Urban access</p>
+        </article>
+        <div class="gap-marker">
+          <strong>34.1</strong>
+          <span>percentage-point gap</span>
+        </div>
+        <article class="data-block data-block--reserve">
+          <strong>65.7<span>%</span></strong>
+          <p>First Nations reserve areas</p>
+        </article>
+      </div>
+
+      <a class="primary-button" href="#gap">See the gap <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="story-section" id="gap">
+      <div class="section-number">01</div>
+      <p class="eyebrow">The national average is not the whole story</p>
+      <h2>Access depends on where you live.</h2>
+      <p>In 2024, 96.4% of Canadian households had access to 50/10 Mbps Internet. Availability was lower in rural communities, the territories and First Nations reserve areas.</p>
+
+      <div class="bar-chart" role="img" aria-label="2024 high-speed Internet availability: Canada 96.4 percent, rural 83 percent, territories 69.6 percent, First Nations reserve areas 65.7 percent">
+        <div class="bar-row">
+          <div class="bar-label"><span>Canada</span><strong>96.4%</strong></div>
+          <div class="track"><div class="bar bar--canada" style="--value:96.4%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>Rural</span><strong>83.0%</strong></div>
+          <div class="track"><div class="bar bar--rural" style="--value:83%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>Territories</span><strong>69.6%</strong></div>
+          <div class="track"><div class="bar bar--territories" style="--value:69.6%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>First Nations reserve areas</span><strong>65.7%</strong></div>
+          <div class="track"><div class="bar bar--reserve" style="--value:65.7%"></div></div>
+        </div>
+      </div>
+
+      <details class="definition">
+        <summary>What does 50/10 Mbps mean?</summary>
+        <p>It refers to Internet service with download speeds of at least 50 megabits per second and upload speeds of at least 10 megabits per second.</p>
+      </details>
+    </section>
+
+    <section class="story-section homes-section" id="homes">
+      <div class="section-number">02</div>
+      <p class="eyebrow">Who remains without access?</p>
+      <h2>Connection still does not reach every home.</h2>
+      <p>In 2024, only 65.7% of households in First Nations reserve areas had access to high-speed Internet. About one in three households remained without access.</p>
+
+      <div class="house-comparison">
+        <article>
+          <div class="house-row" aria-hidden="true">
+            <span class="house connected"></span>
+            <span class="house connected"></span>
+            <span class="house connected"></span>
+          </div>
+          <h3>Urban areas</h3>
+          <strong>99.8% connected</strong>
+          <p>Almost every household has access.</p>
+        </article>
+
+        <article>
+          <div class="house-row" aria-hidden="true">
+            <span class="house connected"></span>
+            <span class="house connected"></span>
+            <span class="house disconnected"></span>
+          </div>
+          <h3>First Nations reserve areas</h3>
+          <strong>65.7% connected</strong>
+          <p>About one in three households remains without access.</p>
+        </article>
+      </div>
+      <p class="method-note">House icons show an approximate comparison. Exact 2024 availability figures are shown above.</p>
+    </section>
+
+    <section class="story-section opportunity-section" id="opportunity">
+      <div class="section-number">03</div>
+      <p class="eyebrow">Why connection matters</p>
+      <h2>When connection is unequal, opportunity is unequal too.</h2>
+      <p>Unequal Internet access can create barriers to healthcare information, education, employment and banking in First Nations reserve areas.</p>
+
+      <div class="donut-grid">
+        <article class="donut-card">
+          <div class="donut" style="--percent:72.6; --accent:#62c936" role="img" aria-label="72.6 percent searched for health information online">
+            <strong>72.6%</strong>
+          </div>
+          <h3>Health information</h3>
+          <p>Searched for health information online</p>
+        </article>
+        <article class="donut-card">
+          <div class="donut" style="--percent:21.8; --accent:#ff7a0b" role="img" aria-label="21.8 percent took formal training or learning online">
+            <strong>21.8%</strong>
+          </div>
+          <h3>Education</h3>
+          <p>Took formal training or learning online</p>
+        </article>
+        <article class="donut-card">
+          <div class="donut" style="--percent:69.3; --accent:#ed0b63" role="img" aria-label="69.3 percent used the Internet for employment-related activities">
+            <strong>69.3%</strong>
+          </div>
+          <h3>Employment</h3>
+          <p>Used the Internet for employment-related activities</p>
+        </article>
+        <article class="donut-card">
+          <div class="donut" style="--percent:77.6; --accent:#ffcc28" role="img" aria-label="77.6 percent used online banking">
+            <strong>77.6%</strong>
+          </div>
+          <h3>Banking</h3>
+          <p>Used online banking</p>
+        </article>
+      </div>
+      <p class="method-note">These online-activity figures describe Canadians overall. They show why reliable access matters, not activity rates specific to First Nations reserve areas.</p>
+    </section>
+
+    <section class="action-section" id="action">
+      <div>
+        <p class="eyebrow">Take action</p>
+        <h2>Ask for equal connection.</h2>
+        <p>Tell your Member of Parliament that reliable broadband should reach every community in Canada.</p>
+      </div>
+
+      <div class="action-card">
+        <h3>Message template</h3>
+        <textarea id="message-template" rows="12" aria-label="Editable message to a Member of Parliament">Subject: Support equal access to reliable high-speed Internet
+
+Hello,
+
+I am writing to ask you to support continued investment in reliable and affordable broadband infrastructure for rural communities, the territories and First Nations reserve areas.
+
+In 2024, high-speed Internet availability reached 99.8% in urban areas but only 65.7% in First Nations reserve areas. Reliable Internet is essential for healthcare, education, employment, banking and participation in public life.
+
+Please support policies and infrastructure that help close Canada's digital divide.
+
+Thank you.</textarea>
+        <div class="button-row">
+          <button class="primary-button" id="copy-message" type="button">Copy message</button>
+          <a class="secondary-button" href="https://www.ourcommons.ca/members/en" target="_blank" rel="noopener">Find your MP</a>
+        </div>
+        <p id="copy-status" class="copy-status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="sources-section" id="sources">
+      <img src="assets/sdg9.png" alt="United Nations Sustainable Development Goal 9: Industry, Innovation and Infrastructure">
+      <div>
+        <h2>Sources and notes</h2>
+        <ul>
+          <li>Canadian Radio-television and Telecommunications Commission, broadband availability data, 2024.</li>
+          <li>Innovation, Science and Economic Development Canada, urban broadband availability.</li>
+          <li>Statistics Canada, Canadian Internet Use Survey, 2022.</li>
+        </ul>
+        <p>This project supports UN Sustainable Development Goal 9: Industry, Innovation and Infrastructure.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Same Country. Different Connection.</strong>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
