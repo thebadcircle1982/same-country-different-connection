@@ -18,8 +18,8 @@
   --green: #62c936;
   --yellow: #ffcc28;
   --white: #fff;
-  --display:  "Helvetica Neue", Helvetica, sans-serif;
-  --body: "Self Modern", Georgia, "Times New Roman", serif;
+  --display:  "Helvetica Neue", sans-serif;
+  --body: "Self Modern", serif;
 }
 
 * { box-sizing: border-box; }
