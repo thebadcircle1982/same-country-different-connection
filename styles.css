@@ -337,10 +337,14 @@ footer {
   .action-card { margin-top: 0; }
   .sources-section { grid-template-columns: auto 1fr; }
   footer { padding-left: max(2rem, calc((100vw - 1100px) / 2)); padding-right: max(2rem, calc((100vw - 1100px) / 2)); }
-  .chunky-chart img {
-  width: 100vw;
+ .chunky-chart {
+  overflow-x: auto;
+}
+
+.chunky-chart img {
+  width: 125vw;
   max-width: none;
-  margin-left: calc(50% - 50vw);
+  margin-left: calc(50% - 62.5vw);
 }
 }
 
