@@ -243,7 +243,10 @@ h2 {
 .house.disconnected { background: white; }
 .method-note { color: var(--muted); font-size: .83rem; }
 
-.opportunity-section { background: var(--ink); color: white; }
+.opportunity-section {
+  background: #efedef;
+  color: var(--ink);
+}
 .donut-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -257,7 +260,9 @@ h2 {
   width: 100%;
   height: auto;
 }
-.opportunity-section .method-note { color: #bdb9ba; }
+.opportunity-section .method-note {
+  color: var(--muted);
+}
 
 .action-section { background: var(--yellow); border-top: 2px solid var(--ink); }
 .action-card { margin-top: 2rem; padding: 1rem; border: 2px solid var(--ink); background: var(--paper); }
