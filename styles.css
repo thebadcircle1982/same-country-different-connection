@@ -302,6 +302,25 @@ footer {
   font-size: .8rem;
 }
 
+.chunky-chart {
+  margin: 2rem 0;
+}
+
+.chunky-chart img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.chunky-chart figcaption {
+  max-width: 38rem;
+  margin-top: 0.75rem;
+  color: var(--muted);
+  font-family: var(--body);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
 @media (min-width: 760px) {
   body { font-size: 20px; }
   .site-header { padding: 1rem 2rem; }
