@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Self Modern";
+  src: url("fonts/Self%20Modern%20Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --paper: #dedddf;
   --ink: #151313;
@@ -11,7 +19,7 @@
   --yellow: #ffcc28;
   --white: #fff;
   --display: "Arial Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --body: Georgia, "Times New Roman", serif;
+  --body: "Self Modern", Georgia, "Times New Roman", serif;
 }
 
 * { box-sizing: border-box; }
