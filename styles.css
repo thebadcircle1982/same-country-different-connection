@@ -396,7 +396,6 @@ footer {
   }
 }
 
-.hero-title,
-.hero-title span {
-  color: var(--ink) !important;
+#top h1 span {
+  color: #151313 !important;
 }
