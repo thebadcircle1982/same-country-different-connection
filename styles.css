@@ -381,6 +381,14 @@ footer {
   height: auto;
 }
 
+h1,
+h2,
+h3,
+.eyebrow {
+  font-family: var(--display);
+  font-weight: 900;
+}
+
 @media (min-width: 760px) {
   body { font-size: 20px; }
   .site-header { padding: 1rem 2rem; }
