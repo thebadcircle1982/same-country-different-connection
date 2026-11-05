@@ -5,6 +5,13 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Helvetica Now Display";
+  src: url("./fonts/HelveticaNowDisplay-XBlack.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --paper: #dedddf;
