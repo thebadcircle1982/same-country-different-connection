@@ -450,3 +450,17 @@ h3,
 #top h1 span {
   color: #151313 !important;
 }
+
+html {
+  background: #b9b6b7;
+}
+
+body {
+  width: 100%;
+  max-width: 430px;
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background: var(--paper);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
