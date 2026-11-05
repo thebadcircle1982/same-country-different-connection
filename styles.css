@@ -464,3 +464,11 @@ body {
   background: var(--paper);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
 }
+
+.chunky-chart img,
+.territory-descriptions img,
+.gap-chart-image img {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+}
