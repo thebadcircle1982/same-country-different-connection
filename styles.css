@@ -271,7 +271,10 @@ h2 {
   color: var(--muted);
 }
 
-.action-section { background: var(--yellow); border-top: 2px solid var(--ink); }
+.action-section {
+  background: var(--paper);
+  border-top: 2px solid var(--ink);
+}
 .action-card { margin-top: 2rem; padding: 1rem; border: 2px solid var(--ink); background: var(--paper); }
 .action-card textarea {
   width: 100%;
@@ -280,7 +283,7 @@ h2 {
   border: 1px solid var(--ink);
   background: white;
   color: var(--ink);
-  font-family: Arial, sans-serif;
+font-family: var(--body);
   font-size: .9rem;
   line-height: 1.4;
 }
