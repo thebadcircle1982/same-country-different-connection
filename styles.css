@@ -451,3 +451,13 @@ h3,
   color: #151313 !important;
 }
 
+.site-header .brand,
+.site-header .brand span {
+  font-family: var(--display);
+  font-weight: 900;
+}
+
+.site-header .brand {
+  font-synthesis: none;
+}
+
