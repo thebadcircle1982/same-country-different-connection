@@ -346,6 +346,24 @@ footer {
   font-family: var(--display);
 }
 
+.gap-chart-image {
+  margin: 2rem 0;
+}
+
+.gap-chart-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.gap-chart-image figcaption {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  font-family: var(--body);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
 @media (min-width: 760px) {
   body { font-size: 20px; }
   .site-header { padding: 1rem 2rem; }
