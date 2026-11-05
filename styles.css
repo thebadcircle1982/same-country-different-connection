@@ -364,6 +364,16 @@ footer {
   line-height: 1.4;
 }
 
+.territory-descriptions {
+  margin: 2rem 0;
+}
+
+.territory-descriptions img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 @media (min-width: 760px) {
   body { font-size: 20px; }
   .site-header { padding: 1rem 2rem; }
@@ -388,6 +398,11 @@ footer {
   .house-grid {
   grid-template-columns: 1fr;
   gap: 2.5rem;
+}
+  .territory-descriptions img {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
 }
 }
 
