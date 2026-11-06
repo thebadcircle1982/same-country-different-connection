@@ -464,19 +464,25 @@ h3,
 .sources {
   width: 100%;
   max-width: 100%;
-  overflow: hidden;
+}
+
+.sources h2 {
+  margin-left: 0;
 }
 
 .source-list {
-  margin: 1rem 0;
-  padding-left: 1.25rem;
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
 }
 
 .source-list li {
-  margin-bottom: 0.75rem;
+  margin: 0 0 0.75rem;
+  padding: 0;
 }
 
 .source-list a {
+  display: block;
   color: var(--ink);
   font-size: 1rem;
   line-height: 1.35;
