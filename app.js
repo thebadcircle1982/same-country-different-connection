@@ -14,40 +14,21 @@ navigation?.querySelectorAll('a').forEach((link) => {
   });
 });
 
-const copyButton = document.querySelector('#copy-message');
+const emailButton = document.querySelector('#open-email');
 const message = document.querySelector('#message-template');
-const status = document.querySelector('#copy-status');
 
-copyButton?.addEventListener('click', async () => {
-  let copied = false;
+emailButton?.addEventListener('click', () => {
+  const subject = 'Support equal access to reliable high-speed Internet';
+  const body = message.value.replace(
+    'Subject: Support equal access to reliable high-speed Internet\n\n',
+    ''
+  );
 
-  message.focus();
-  message.select();
-  message.setSelectionRange(0, message.value.length);
+  const emailLink =
+    'mailto:?subject=' +
+    encodeURIComponent(subject) +
+    '&body=' +
+    encodeURIComponent(body);
 
-  try {
-    copied = document.execCommand('copy');
-  } catch (error) {
-    copied = false;
-  }
-
-  if (!copied && navigator.clipboard) {
-    try {
-      await navigator.clipboard.writeText(message.value);
-      copied = true;
-    } catch (error) {
-      copied = false;
-    }
-  }
-
-  if (copied) {
-    status.textContent = 'Message copied. Personalize it before sending.';
-    copyButton.textContent = 'Copied';
-  } else {
-    status.textContent = 'Copy failed. Select the message and copy it manually.';
-  }
-
-  setTimeout(() => {
-    copyButton.textContent = 'Copy message';
-  }, 1800);
+  window.location.href = emailLink;
 });
