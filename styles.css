@@ -463,22 +463,23 @@ h3,
 
 .sources {
   width: 100%;
-  max-width: 100%;
+  box-sizing: border-box;
+  padding: 3rem 2rem;
+}
+
+.sources-inner {
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
 }
 
 .sources h2 {
-  margin-left: 0;
+  margin: 0 0 1rem;
 }
 
 .source-list {
-  list-style: none;
-  margin: 1rem 0 0;
-  padding: 0;
-}
-
-.source-list li {
-  margin: 0 0 0.75rem;
-  padding: 0;
+  display: grid;
+  gap: 0.75rem;
 }
 
 .source-list a {
