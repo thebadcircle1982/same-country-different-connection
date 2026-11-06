@@ -19,14 +19,28 @@ const message = document.querySelector('#message-template');
 const status = document.querySelector('#copy-status');
 
 copyButton?.addEventListener('click', async () => {
+  const messageText = message.value;
+
   try {
-    await navigator.clipboard.writeText(message.value);
+    await navigator.clipboard.writeText(messageText);
     status.textContent = 'Message copied. Personalize it before sending.';
     copyButton.textContent = 'Copied';
-    setTimeout(() => { copyButton.textContent = 'Copy message'; }, 1800);
-  } catch {
+  } catch (error) {
     message.focus();
     message.select();
-    status.textContent = 'Select and copy the message manually.';
+    message.setSelectionRange(0, message.value.length);
+
+    const copied = document.execCommand('copy');
+
+    if (copied) {
+      status.textContent = 'Message copied. Personalize it before sending.';
+      copyButton.textContent = 'Copied';
+    } else {
+      status.textContent = 'Please select and copy the message manually.';
+    }
   }
+
+  setTimeout(() => {
+    copyButton.textContent = 'Copy message';
+  }, 1800);
 });
