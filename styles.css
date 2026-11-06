@@ -412,6 +412,14 @@ h3,
   width: 100vw;
   max-width: none;
   margin-left: calc(50% - 50vw);
+  @media (max-width: 600px) {
+  h1,
+  h2,
+  h3,
+  .eyebrow {
+    letter-spacing: 0.025em;
+  }
+}
 }
   .house-grid {
   grid-template-columns: 1fr;
