@@ -461,3 +461,14 @@ h3,
   font-synthesis: none;
 }
 
+.source-list a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.source-list a:hover,
+.source-list a:focus {
+  color: var(--pink);
+}
+
