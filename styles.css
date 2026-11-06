@@ -499,3 +499,13 @@ h3,
   text-underline-offset: 3px;
   overflow-wrap: anywhere;
 }
+.designer-credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.designer-credit a:hover,
+.designer-credit a:focus {
+  opacity: 0.6;
+}
